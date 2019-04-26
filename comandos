@@ -1,0 +1,100 @@
+exercicio 1;
+
+echo"Kelvim" -  #(echo igual a print).
+
+exercicio 2;
+
+'''#(vi é um editor de texto seguido do nome do arquivo mais a extensão).
+vi cliente1.txt 
+
+#(para habilitar a digitação);
+i 
+
+#(esse comando representa respectivamente a linha e o shell(interpretador de comando) que rodará o script).
+#!/bin/bash 
+
+#(echo comando para mostrar o texto indicado entre aspas).
+echo "Kelvim" 
+
+#(comando para salvar o arquivo).
+ESC+:WQ  
+
+#(comando para tornar o arquivo executavel).
+chmod a+x cliente1.txt 
+
+#( comando ./ indica que o arquivo está dentro do diretório atual)
+./cliente1.txt 
+Kelvim.
+
+exercicio 3;
+
+ #(vi é um editor de texto seguido do nome do arquivo mais a extensão).
+vi cliente1.txt 
+
+#(para habilitar a digitação);
+i 
+#(esse comando representa respectivamente a linha e o shell(interpretador de comando) que rodará o script).
+#!/bin/bash 
+
+ #(echo comando para mostrar o texto indicado entre aspas).
+echo "Kelvim"
+
+#(echo comando para mostrar o texto indicado entre aspas).
+echo "E eu nasci em São Francisco do Sul" 
+
+#(comando para salvar o arquivo).
+ESC+:WQ 
+
+#(comando para tornar o arquivo executavel).
+chmod a+x cliente1.txt
+
+  #( comando ./ indica que o arquivo está dentro do diretório atual)
+./cliente1.txt
+Kelvim
+E eu nasci em São Francisco do Sul,
+
+exercicio 4;
+
+#(criar pasta no diretório principal)
+mkdir cliente 
+
+#(mostrar no diretório principal)
+ls
+
+exercicio 5;
+
+#(sair do diretorio atual)
+cd 
+
+ #(entrar no diretório cliente)
+cd cliente 
+
+#(mover para a pasta atual utilizando o ponto espaçado no final, indicando a pasta que o
+arquivo desejado se encontra atualmente)
+mv /root/meunome/cliente1.txt .
+
+ #(resultado).
+cliente1.txt 
+
+exercicio 6;
+
+#(ir para o diretorio principal)
+cd 
+
+#(copiar arquivo da pasta cliente para o diretorio principal)
+cp /root/cliente/cliente1.txt . - 
+
+(mostrar no diretorio principal)
+ls
+
+exercicio 7;
+
+#(ir para o diretorio principal)
+cd
+
+#(ir para o diretorio cliente)
+cd cliente 
+
+#(consultar diretório, ver o que esta contido nele)
+ls 
+rm cliente1.txt - #(apagar arquivo)'''
